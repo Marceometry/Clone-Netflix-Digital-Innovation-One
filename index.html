@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./style/header.css" />
     <link rel="stylesheet" href="./style/main-movie.css" />
     <link rel="stylesheet" href="./style/carousel.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
     <link rel="stylesheet" href="./style/mobile.css" />
 
     <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
@@ -18,17 +19,16 @@
   </head>
   <body>
     <header>
-      <h1>NETFLIX</h1>
+      <h1>STARFLIX</h1>
 
       <button id="nav-dropdown" onclick="handleDropdown()">
         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 15h18v-2H3v2zm0 4h18v-2H3v2zm0-8h18V9H3v2zm0-6v2h18V5H3z"/></svg>
       </button>
       
       <nav>
-        <a href="">Início</a>
-        <a href="">Séries</a>
-        <a href="">Filmes</a>
-        <a href="">Documentários</a>
+        <a href="#">Início</a>
+        <a href="#movies">Filmes</a>
+        <a href="#series">Séries</a>
       </nav>
     </header>
 
@@ -71,77 +71,155 @@
       </section>
 
       <section class="carousel-container">
-        <div class="carousel">
+        <div class="carousel" id="movies">
           <div class="owl-carousel owl-theme">
             <div class="card">
-              <img src="./img/mini1.jpg" alt="Capa do Filme" srcset="">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/gNk8UNAumXlfCdtaxDqsQe7ZGlt.jpg"
+                alt="Capa do Filme"
+              >
             </div>
             <div class="card">
-              <img src="./img/mini2.jpg" alt="Capa do Filme" srcset="">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/9m1nJ2MfTG5QEmjOCg0b4YCo4W8.jpg"
+                alt="Capa do Filme"
+              >
             </div>
             <div class="card">
-              <img src="./img/mini3.jpg" alt="Capa do Filme" srcset="">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/nuF5yWtTJEEAd4Qa6cVkYz1XCST.jpg"
+                alt="Capa do Filme"
+              >
             </div>
             <div class="card">
-              <img src="./img/mini4.jpg" alt="Capa do Filme" srcset="">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/jAMEX0syUh6sbjBiysibzrFpbo.jpg"
+                alt="Capa do Filme"
+              >
             </div>
             <div class="card">
-              <img src="./img/mini5.jpg" alt="Capa do Filme" srcset="">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/74C2YX0NLWnozVMRS56d5CKDdEv.jpg"
+                alt="Capa do Filme"
+              >
             </div>
             <div class="card">
-              <img src="./img/mini6.jpg" alt="Capa do Filme" srcset="">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/dw7X9YPjjAfIxKHW04V64Bb9TB0.jpg"
+                alt="Capa do Filme"
+              >
             </div>
             <div class="card">
-              <img src="./img/mini7.jpg" alt="Capa do Filme" srcset="">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/dLGT8b4Ut10z44uYLaip4QiwKta.jpg"
+                alt="Capa do Filme"
+              >
             </div>
             <div class="card">
-              <img src="./img/mini8.jpg" alt="Capa do Filme" srcset="">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/llaJ35p5e23ygDbqd0H3otJLWsA.jpg"
+                alt="Capa do Filme"
+              >
             </div>
             <div class="card">
-              <img src="./img/mini9.jpg" alt="Capa do Filme" srcset="">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/lqMDbo4rXnakFgc4C6LzPv6pG7F.jpg"
+                alt="Capa do Filme"
+              >
             </div>
             <div class="card">
-              <img src="./img/mini10.jpg" alt="Capa do Filme" srcset="">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/5dGufuaIG5vNcxPm8QPij5MSPeQ.jpg"
+                alt="Capa do Filme"
+              >
+            </div>
+            <div class="card">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/uLlrDUtFG2tKtDcJN6kBznlqqsp.jpg"
+                alt="Capa do Filme"
+              >
             </div>
           </div>
         </div>
   
-        <div class="carousel">
+        <div class="carousel" id="series">
           <div class="owl-carousel owl-theme">
             <div class="card">
-              <img src="./img/mini1.jpg" alt="Capa do Filme" srcset="">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg"
+                alt="Capa da Série"
+              >
             </div>
             <div class="card">
-              <img src="./img/mini2.jpg" alt="Capa do Filme" srcset="">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/oPti8Yf7ryQb6bQZfZlYgeCZkm3.jpg"
+                alt="Capa da Série"
+              >
             </div>
             <div class="card">
-              <img src="./img/mini3.jpg" alt="Capa do Filme" srcset="">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/opDY35ukPWTGFIxq17BBHJs49LD.jpg"
+                alt="Capa da Série"
+              >
             </div>
             <div class="card">
-              <img src="./img/mini4.jpg" alt="Capa do Filme" srcset="">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/pMVt0jdKnwBYPZknmRjuNdL8vcK.jpg"
+                alt="Capa da Série"
+              >
             </div>
             <div class="card">
-              <img src="./img/mini5.jpg" alt="Capa do Filme" srcset="">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/ltyjHYLFrQdzh8L9fvomDykZU6h.jpg"
+                alt="Capa da Série"
+              >
             </div>
             <div class="card">
-              <img src="./img/mini6.jpg" alt="Capa do Filme" srcset="">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/bTcHN8haCfwMkh6mmUnYQD3zjeU.jpg"
+                alt="Capa da Série"
+              >
             </div>
             <div class="card">
-              <img src="./img/mini7.jpg" alt="Capa do Filme" srcset="">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/7pfIsG4NauZEkPRBGIL43ZONTQM.jpg"
+                alt="Capa da Série"
+              >
             </div>
             <div class="card">
-              <img src="./img/mini8.jpg" alt="Capa do Filme" srcset="">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/97dmYYI7TACdGvXWQd2sIyMq16n.jpg"
+                alt="Capa da Série"
+              >
             </div>
             <div class="card">
-              <img src="./img/mini9.jpg" alt="Capa do Filme" srcset="">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/rzaFEDjG8btAyCh1bxCujq4qFM6.jpg"
+                alt="Capa da Série"
+              >
             </div>
             <div class="card">
-              <img src="./img/mini10.jpg" alt="Capa do Filme" srcset="">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/1DULTHI6Lwk2Nv2W4Joexjl7ecx.jpg"
+                alt="Capa da Série"
+              >
+            </div>
+            <div class="card">
+              <img
+                src="https://www.themoviedb.org/t/p/w220_and_h330_face/lZ4ttilu3NeU73bFaCfIBKi7nFy.jpg"
+                alt="Capa da Série"
+              >
             </div>
           </div>
         </div>
       </section>
     </main>
+
+    <footer>
+      <p>Feito com <span>&#10084;</span> por <a rel="noopener noreferrer" href="https://github.com/Marceometry">Marcelino Teixeira</a></p>
+      <p>Dados pegos do site <a rel="noopener noreferrer" href="https://www.themoviedb.org/" target="_blank">TheMovieDB</a></p>
+      <p>Direitos de imagem <a rel="noopener noreferrer" href="https://netflix.com/" target="_blank">Netflix</a></p>
+    </footer>
 
     <script src="./js/owl/jquery.min.js"></script>
     <script src="./js/owl/owl.carousel.min.js"></script>
