@@ -4,7 +4,7 @@
   --gray: #999;
   --font-color: #fff;
   --green: #46d369;
-  --red: #E50914;
+  --red: #e50914;
   --red-dark: #be010a;
 }
 
@@ -12,6 +12,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 64px;
 }
 
 body {
@@ -20,7 +22,8 @@ body {
   font: 400 16px sans-serif;
 }
 
-button, a {
+button,
+a {
   all: unset;
   cursor: pointer;
 }
