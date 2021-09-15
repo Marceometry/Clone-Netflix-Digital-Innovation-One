@@ -1,0 +1,20 @@
+footer {
+  margin: 56px 0 0;
+  padding: 64px 0;
+  text-align: center;
+  background: #080808;
+}
+
+footer p:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+footer span,
+footer a {
+  color: var(--red);
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
