@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style/global.css" />
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/main-movie.css" />
+    <link rel="stylesheet" href="./style/carousel.css" />
+    <link rel="stylesheet" href="./style/mobile.css" />
+
+    <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
+
+    <title>Netflix Clone</title>
+  </head>
+  <body>
+    <header>
+      <h1>NETFLIX</h1>
+
+      <button id="nav-dropdown" onclick="handleDropdown()">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 15h18v-2H3v2zm0 4h18v-2H3v2zm0-8h18V9H3v2zm0-6v2h18V5H3z"/></svg>
+      </button>
+      
+      <nav>
+        <a href="">Início</a>
+        <a href="">Séries</a>
+        <a href="">Filmes</a>
+        <a href="">Documentários</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="main-movie">
+        <div class="vertical">
+          <div class="horizontal">
+            <img
+              class="title-img"
+              src="./img/mandalorian-title.png"
+              alt="THE MANDALORIAN"
+            />
+
+            <div class="info">
+              <span class="relevance">85% relevante</span>
+              <span class="year">2019</span>
+              <span class="seasons">2 temporadas</span>
+            </div>
+
+            <p class="description">
+              A saga de um guerreiro solitário, que também é um mercenário e
+              pistoleiro, viajando pelos territórios esquecidos e marginais do
+              espaço, logo após a queda do Império e antes da criação da temida
+              Primeira Ordem.
+            </p>
+
+            <div class="buttons">
+              <a target="_blank" href="https://www.youtube.com/watch?v=eW7Twd85m2g">
+                &#9654; Assistir
+              </a>
+              <button>+ Minha Lista</button>
+            </div>
+
+            <span class="genres">
+              <strong>Gêneros:</strong> Sci-Fi & Fantasia, Ação & Aventura,
+              Faroeste, Drama
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <section class="carousel-container">
+        <div class="carousel">
+          <div class="owl-carousel owl-theme">
+            <div class="card">
+              <img src="./img/mini1.jpg" alt="Capa do Filme" srcset="">
+            </div>
+            <div class="card">
+              <img src="./img/mini2.jpg" alt="Capa do Filme" srcset="">
+            </div>
+            <div class="card">
+              <img src="./img/mini3.jpg" alt="Capa do Filme" srcset="">
+            </div>
+            <div class="card">
+              <img src="./img/mini4.jpg" alt="Capa do Filme" srcset="">
+            </div>
+            <div class="card">
+              <img src="./img/mini5.jpg" alt="Capa do Filme" srcset="">
+            </div>
+            <div class="card">
+              <img src="./img/mini6.jpg" alt="Capa do Filme" srcset="">
+            </div>
+            <div class="card">
+              <img src="./img/mini7.jpg" alt="Capa do Filme" srcset="">
+            </div>
+            <div class="card">
+              <img src="./img/mini8.jpg" alt="Capa do Filme" srcset="">
+            </div>
+            <div class="card">
+              <img src="./img/mini9.jpg" alt="Capa do Filme" srcset="">
+            </div>
+            <div class="card">
+              <img src="./img/mini10.jpg" alt="Capa do Filme" srcset="">
+            </div>
+          </div>
+        </div>
+  
+        <div class="carousel">
+          <div class="owl-carousel owl-theme">
+            <div class="card">
+              <img src="./img/mini1.jpg" alt="Capa do Filme" srcset="">
+            </div>
+            <div class="card">
+              <img src="./img/mini2.jpg" alt="Capa do Filme" srcset="">
+            </div>
+            <div class="card">
+              <img src="./img/mini3.jpg" alt="Capa do Filme" srcset="">
+            </div>
+            <div class="card">
+              <img src="./img/mini4.jpg" alt="Capa do Filme" srcset="">
+            </div>
+            <div class="card">
+              <img src="./img/mini5.jpg" alt="Capa do Filme" srcset="">
+            </div>
+            <div class="card">
+              <img src="./img/mini6.jpg" alt="Capa do Filme" srcset="">
+            </div>
+            <div class="card">
+              <img src="./img/mini7.jpg" alt="Capa do Filme" srcset="">
+            </div>
+            <div class="card">
+              <img src="./img/mini8.jpg" alt="Capa do Filme" srcset="">
+            </div>
+            <div class="card">
+              <img src="./img/mini9.jpg" alt="Capa do Filme" srcset="">
+            </div>
+            <div class="card">
+              <img src="./img/mini10.jpg" alt="Capa do Filme" srcset="">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/owl/jquery.min.js"></script>
+    <script src="./js/owl/owl.carousel.min.js"></script>
+    <script src="./js/handleDropdown.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

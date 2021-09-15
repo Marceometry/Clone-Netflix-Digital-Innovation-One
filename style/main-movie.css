@@ -1,0 +1,109 @@
+#main-movie {
+  height: calc(100vh - 77px);
+  background-size: cover;
+  background-position: center top;
+  background-image: url('../img/mandalorian-bg.jpg');
+  transition: background, 0.5s;
+}
+
+#main-movie .vertical {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+
+#main-movie .horizontal {
+  width: inherit;
+  height: inherit;
+  padding: 72px 0 128px 32px;
+  background: linear-gradient(to right, #111 30%, transparent 70%);
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#main-movie .title-img {
+  width: fit-content;
+  height: 144px;
+}
+
+#main-movie .info {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+#main-movie .info span:not(:last-child) {
+  margin-right: 16px;
+}
+
+#main-movie .info .relevance {
+  color: var(--green);
+}
+
+#main-movie .description {
+  width: 40%;
+  font-size: 20px;
+  color: var(--gray);
+  text-align: justify;
+}
+
+#main-movie .buttons {
+  margin: 20px 0;
+}
+
+#main-movie .buttons * {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 5px;
+  transition: opacity, 0.2s;
+}
+
+#main-movie .buttons *:hover {
+  opacity: 0.7;
+}
+
+#main-movie .buttons *:first-child {
+  margin-right: 12px;
+  background: var(--font-color);
+  color: var(--black);
+}
+
+#main-movie .buttons *:last-child {
+  background: var(--gray-dark);
+}
+
+#main-movie .genres {
+  font-size: 18px;
+  color: var(--gray);
+}
+
+/* mobile */
+
+/* @media (max-width: 768px) {
+  .container {
+      .horizontal {
+          padding-left: 1rem;
+      }
+
+      .name {
+          font-size: 2.5rem;
+      }
+
+      .genres, .info {
+          font-size: 1rem;
+      }
+
+      .buttons button {
+          font-size: 1rem;
+          padding: .5rem 1rem;
+      }
+
+      .description {
+          width: 70%;
+          font-size: 1rem;
+      }
+  }
+} */

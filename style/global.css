@@ -1,0 +1,26 @@
+:root {
+  --black: #111;
+  --gray-dark: #333;
+  --gray: #999;
+  --font-color: #fff;
+  --green: #46d369;
+  --red: #E50914;
+  --red-dark: #be010a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--font-color);
+  background: var(--black);
+  font: 400 16px sans-serif;
+}
+
+button, a {
+  all: unset;
+  cursor: pointer;
+}

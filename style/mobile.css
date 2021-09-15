@@ -1,0 +1,97 @@
+/* header */
+
+header nav.open {
+  padding: 10px 0;
+  background: var(--black);
+  border-bottom-left-radius: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 77px;
+  right: 0;
+}
+
+header nav.open a {
+  padding: 10px 24px;
+  transition: filter 0.2s;
+}
+
+@media (max-width: 600px) {
+  header #nav-dropdown {
+    display: initial;
+  }
+
+  header nav {
+    display: none;
+  }
+}
+
+/* main-movie */
+
+@media (max-width: 1000px) {
+  #main-movie .title-img {
+    height: 96px;
+  }
+
+  #main-movie .info {
+    font-size: 16px;
+  }
+
+  #main-movie .description {
+    width: 50%;
+    font-size: 18px;
+  }
+
+  #main-movie .buttons * {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  #main-movie .genres {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  #main-movie .horizontal {
+    padding: 72px 24px 128px 24px;
+  }
+
+  #main-movie .description {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  #main-movie .vertical {
+    background: linear-gradient(to top, #111 60%, transparent 90%);
+  }
+
+  #main-movie .horizontal {
+    background: none;
+  }
+
+  #main-movie .title-img {
+    width: 100%;
+    height: fit-content;
+  }
+
+  #main-movie .info {
+    font-size: 14px;
+  }
+
+  #main-movie .description {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  #main-movie .buttons * {
+    font-size: 16px;
+    padding: 8px 18px;
+  }
+
+  #main-movie .genres {
+    font-size: 14px;
+  }
+}
